@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabelas </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkslategray;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        
+        th , td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        th{
+            background-color: rgb(180, 227, 12);
+            color: rgb(0, 0, 0);
+        }
+
+        .grey{
+            background-color: grey;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="grey">
+            <col class="blue">
+            <col class="grey">
+            <col class="blue">
+        </colgroup>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+            <th scope="col">Estado</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yago</td>
+                <td>M</td>
+                <td>Programador</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Ana Júlia</td>
+                <td>F</td>
+                <td>Design</td>
+                <td>Bahia</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>M</td>
+                <td>Vendedor</td>
+                <td>Minas Gerais</td>
+            </tr>
+            <tr>
+                <td>Yuri Alberto</td>
+                <td>M</td>
+                <td>Jogador</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Raissa </td>
+                <td>F</td>
+                <td>Engenheira</td>
+                <td>Paraná</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

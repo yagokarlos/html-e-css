@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping tags </title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 00px;
+            box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.461);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        nav{
+            background-color: rgb(84, 84, 84);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.515);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        a:hover{
+            color: black;
+        }
+
+        article > aside {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(59, 53, 53);
+            color: white;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link01</a>
+            <a href="#">Link02</a>
+            <a href="#">Link03</a>
+            <a href="#">Link04</a>
+            <a href="#">link05</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <p>Esportes Políticas e Tecnologia </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus possimus sint ea vero quisquam fugit, dignissimos aperiam maxime id blanditiis praesentium molestiae excepturi ipsum debitis, illo eligendi unde iste. Ducimus!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>        
+    <footer>
+        <section class="dev">
+            <p>Desenvolvido por mim</p>
+        </section>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>
